@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    margin-top: 100px;
+}
+#login_content{
+    margin-top: 100px;
+}
+#blog_avatar{
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+}
+
+#reg_home{
+    margin-left: 550px;
+}
+/*网站首页自定义样式*/
+#author-img{
+    width: 100px;
+    height: 100px;
+}
+.article-footer span{
+    margin-right: 5px;
+}
+
+
+/*个人博客主页样式*/
+.header {
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.header p {
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.article-title {
+    font-size: 18px;
+}
+
+/*统一点赞、踩样式*/
+#div_digg {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    font-size: 12px;
+    width: 128px;
+    text-align: center;
+    margin-top: 10px;
+}
+.diggit {
+    float: left;
+    width: 46px;
+    height: 52px;
+    background: url("/static/img/upup.gif") no-repeat;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+
+.buryit {
+    float: right;
+    margin-left: 20px;
+    width: 46px;
+    height: 52px;
+    background: url("/static/img/downdown.gif") no-repeat;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+.clear {
+    clear: both;
+}
+
+input.author{
+    background-image: url("/static/img/icon_form.gif");
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    padding: 4px 4px 4px 30px;
+    width: 300px;
+    font-size: 13px;
+}
+
+
+.list-group-item .con{
+    margin-top: 10px;
+}
+
+.comment_tree .comment_item{
+    margin-left: 20px;
+}

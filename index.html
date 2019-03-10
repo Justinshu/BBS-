@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人博客首页</title>
+    <style>
+        /*总样式开始*/
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: ".PingFang SC", "Microsoft YaHei";
+            font-size: 14px;
+        }
+
+        /*总样式结束*/
+        /*左边博客介绍开始*/
+        .siderbar {
+            position: fixed;
+            background: #4c4d4c;
+            width: 20%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .avatar {
+            height: 128px;
+            width: 128px;
+            border: 5px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-top: 20px;
+
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        /*昵称开始*/
+        .blogTitle {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            margin-top: 15px;
+        }
+
+        /*昵称结束*/
+
+        /*签名开始*/
+        .name_title {
+            margin: 15px 15px;
+            border: 1px solid white;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /*签名结束*/
+
+        /*关于开始*/
+        .catListTitle {
+            text-align: center;
+        }
+
+        .catListTitle li {
+            margin: 2px 9px;
+            padding: 3px;
+        }
+
+        .catListTitle a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        /*关于结束*/
+
+        /*文章分类开始*/
+
+        .bloglink {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .bloglink li {
+            margin: 2px 9px;
+            padding: 3px;
+        }
+
+        .bloglink a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .bloglink a:before {
+            content: "#";
+        }
+
+        /*文章分类结束*/
+
+        /*左边博客介绍结束*/
+
+        /*------------------------------------*/
+
+        /*文章主体内容开始*/
+        .main {
+            float: right;
+            width: 80%;
+            background: #e7e7e7;
+            height: 1000px;
+        }
+
+        .article_list {
+            margin: 15px;
+        }
+        /*文章标题行开始*/
+        .article {
+            background-color: #b0b0b0;
+        }
+
+        .main_title {
+            border-left: 4px red solid;
+        }
+
+        .title {
+            display: inline-block;
+            margin: 8px;
+        }
+
+        .datatime {
+            padding: 15px;
+            display: inline-block;
+            float: right;
+        }
+        /*文章标题行结束*/
+
+        /*文章介绍开始*/
+        .content {
+            padding: 15px;
+        }
+
+        .content > a:link {
+            font-weight: bold;
+        }
+        /*文章介绍结束*/
+
+        /*文章标签开始*/
+        .content_list {
+            margin: 15px;
+            padding: 15px 0;
+            border-top: 1px solid #fbfff9;
+
+        }
+        /*文章标签结束*/
+
+        /*文章主体内容结束*/
+
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="siderbar">
+    <div class="avatar">
+        <img src="https://avatars0.githubusercontent.com/u/43578612?s=460&v=4" alt="">
+    </div>
+    <div class="blogTitle">
+        樵夫
+    </div>
+    <div class="name_title">Just Do IT</div>
+    <div class="catListTitle">
+        <ul>
+            <li><a href="">关于我</a></li>
+            <li><a href="">关于我</a></li>
+            <li><a href="">关于我</a></li>
+            <li><a href="">关于我</a></li>
+        </ul>
+
+    </div>
+    <div class="bloglink">
+        <ul>
+            <li><a href="">nba</a></li>
+            <li><a href="">运动</a></li>
+            <li><a href="">football</a></li>
+            <li><a href="">射击</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <div class="article_list">
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+        <div class="article">
+            <div class="main_title">
+                <h1 class="title">nba中国官方网站</h1>
+                <span class="datatime">2019-2-13</span>
+            </div>
+            <div class="content">
+                1995-96赛季，去年被纽约尼克斯扳倒的昔日王者芝加哥公牛上演强势回归。他们在当赛季可谓是神挡杀神，佛挡杀佛，任谁也不能阻挡芝加哥人前进的脚步，他们在当赛季疯狂地掠下了72胜。一举创下了NBA历史的单季胜场记录（此前为洛杉矶湖人在1971-72赛季创下的69胜，当季他们还取得了33连胜）。时任主教练的菲尔-杰克逊曾在1996年夺冠的许多年后回忆道：“1996年的芝加哥公牛为当时NBA其他球队树立了一个全新的标杆，每晚同他们比赛的球队所想的，只是尽可能地去缩小与他们之间的差距。”...
+                <a href="">阅读全文</a>
+            </div>
+            <div class="content_list">
+                #nab #运动
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
